@@ -1,7 +1,5 @@
 provider "aws" {
-  region     = "us-east-1"
-  access_key = "AKIASOJLAZ3YN2H7N232"
-  secret_key = "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"
+ 
 }
 resource "aws_ecs_cluster" "django-cluster" {
   name = "django-cluster"
